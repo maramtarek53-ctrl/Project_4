@@ -7,6 +7,6 @@ Trained_fashion_model: baseline fashion model
 Exp1: experiment 1 of week3 on xray dataset
 Exp2: experiment 2 of week3 on xray dataset
 Exp3: experiment 3 of week3 on xray dataset
-Evaluation/Baseline: evaluation of baseline model xray and fashion model (MSE,t-SNE,SSIM). images of t-SNE are in the report.
+Evaluation/Baseline: evaluation of baseline model xray and fashion model (MSE,t-SNE,SSIM). 
 OpenCV: openCV implementation of week4
 other files in the main and files in our own branches are incremental work flow throughout building the project.
