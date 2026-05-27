@@ -153,24 +153,9 @@ project_4/
 └── README.md
 ```
 
----
-
-## 🔭 What's Next
-
-- [ ] Extended noise modeling — Salt & Pepper, Motion Blur, Poisson
-- [ ] **Variational Autoencoder (VAE)** for probabilistic latent space
-- [ ] **Perceptual loss** (VGG feature matching) for texture-aware training
-- [ ] **U-Net skip connections** for detail recovery at every scale
-- [ ] LPIPS perceptual metric evaluation
-- [ ] Real-world noisy X-ray evaluation (clinical data)
 
 ---
 
-## 📄 License
-
-MIT — free to use, adapt, and build upon.
-
----
 
 <div align="center">
 
