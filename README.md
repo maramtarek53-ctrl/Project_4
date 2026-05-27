@@ -133,8 +133,8 @@ Result: Deep learning consistently outperforms classical methods on both percept
 ```
 project_4/
 │
-├── Trained_xray_model/        # Saved X-ray autoencoder weights
-├── Trained_fashion_model/     # Saved Fashion autoencoder weights
+├── Trained_xray_model/        # Saved X-ray autoencoder weights (Baseline)
+├── Trained_fashion_model/     # Saved Fashion autoencoder weights (Baseline)
 │
 ├── Exp1/                      # High compression architecture
 ├── Exp2/                      # High capacity architecture
