@@ -27,9 +27,9 @@
 This project trains **Convolutional Autoencoders** to remove noise from images — learning a compressed latent representation that captures the *signal*, not the static. Trained and evaluated across two domains:
 
 | Domain | Dataset | Use Case | Link
-|--------|---------|----------|
-| 🩻 Medical | X-ray Images | High-stakes denoising for diagnostics | https://www.kaggle.com/code/paultimothymooney/detecting-pneumonia-in-x-ray-images
-| 👗 General | Fashion-MNIST | Benchmark reconstruction quality | imported
+|--------|---------|----------|-------|
+| 🩻 Medical | X-ray Images | High-stakes denoising for diagnostics | https://www.kaggle.com/code/paultimothymooney/detecting-pneumonia-in-x-ray-images |
+| 👗 General | Fashion-MNIST | Benchmark reconstruction quality | imported |
 
 The pipeline covers everything: noise injection → encoder–decoder training → quantitative evaluation → latent space visualization → classical baseline comparison → U-Net skip connection  
 
