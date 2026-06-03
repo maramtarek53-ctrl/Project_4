@@ -147,8 +147,8 @@ project_4/
 │   └── Exp3/                  # MSE, SSIM, PSNR results + embeddings
 │   └── Overall_Evaluation     # Evaluating best experiment results
 │
-├── OpenCV/                    # Classical denoising baseline
-│
+├── OpenCV/                    # Classical denoising baseline with MSE loss
+├── UNetExp3/                  # U-Net skip connection
 ├── main/                      # Training pipeline & core scripts
 └── README.md
 ```
