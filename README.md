@@ -150,6 +150,7 @@ project_4/
 │
 ├── OpenCV/                    # Classical denoising baseline with MSE loss
 ├── UNetExp3/                  # U-Net skip connection
+├── UNetExp3-Testing/          # U-Net skip connection evaluation
 ├── main/                      # Training pipeline & core scripts
 └── README.md
 ```
