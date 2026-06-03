@@ -26,12 +26,12 @@
 
 This project trains **Convolutional Autoencoders** to remove noise from images — learning a compressed latent representation that captures the *signal*, not the static. Trained and evaluated across two domains:
 
-| Domain | Dataset | Use Case |
+| Domain | Dataset | Use Case | Link
 |--------|---------|----------|
-| 🩻 Medical | X-ray Images | High-stakes denoising for diagnostics |
-| 👗 General | Fashion-MNIST | Benchmark reconstruction quality |
+| 🩻 Medical | X-ray Images | High-stakes denoising for diagnostics | https://www.kaggle.com/code/paultimothymooney/detecting-pneumonia-in-x-ray-images
+| 👗 General | Fashion-MNIST | Benchmark reconstruction quality | imported
 
-The pipeline covers everything: noise injection → encoder–decoder training → quantitative evaluation → latent space visualization → classical baseline comparison.
+The pipeline covers everything: noise injection → encoder–decoder training → quantitative evaluation → latent space visualization → classical baseline comparison → U-Net skip connection  
 
 ---
 
@@ -127,7 +127,8 @@ Autoencoder (learned features) vs. OpenCV filters (handcrafted rules)
 Result: Deep learning consistently outperforms classical methods on both perceptual and structural metrics — especially at higher noise levels.
 
 ---
-
+## 🖼️ U-Net skip connection
+implemented a U-Net skip connection for experiment 3 model (best model) to analyse how performance will improve in terms of denoising and reconsrtruction
 ## 🗂️ Repository Structure
 
 ```
